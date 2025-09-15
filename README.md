@@ -1,28 +1,41 @@
-# 🌲 Cypress, do Zero à Nuvem ☁️
+# 🌲 Cypress, do Zero a Nuvem ☁️
 
-👋 Seja bem-vindo(a)!
+Projeto Simples, desenvolvido para o Curso da Escola TAT(Talking About Testing)
 
-É muito bom tê-lo(a) aqui. Tenho certeza que você vai amar esse curso. ❤️
 
-## O que você vai aprender?
+## Pré-Requisitos
 
-- Como configurar um projeto Cypress do zero
-- Como visitar páginas locais e remotas
-- Como lidar com os elementos mais comuns encontrados em aplicações web
-- Como testar upload de arquivos
-- Como realizar as mais diversas verificações de resultados esperados
-- Como criar comandos customizados
-- Como lidar com links que abrem em outra aba do navegador
-- Como rodar testes simulando as dimensões de um dispositivo móvel
-- Como resolver os mesmos problemas de diferentes formas, conhecendo a [API do Cypress](https://docs.cypress.io/api/table-of-contents)
-- Como criar uma documentação mínima para seu projeto de testes automatizados
-- Como executar os testes em um _workflow_ de integração contínua sempre que mudanças ocorrerem no código da aplicação (ou dos testes)
-- Como integrar seu _workflow_ de integração contínua com o Cypress Cloud (o serviço de gestão de testes do Cypress na nuvem)
+Necessário ter Git, Node.js e npm instalado para clonar e executar o projeto
 
-## Vamos começar?
+> Utilizei as seguintes versões **22.17.0**, **10.9.2** e **2.50.0**, de Node.js, npm e git, respectivamente. Recomendo usar as mesmas versões ou versões mais recentes de suporte de longo prazo (LTS) dos sistemas listados.
 
-Vá para a seção [estrutura do curso](./lessons/_course-structure_.md).
+## Instalação
 
-___
+* [Node.js](https://nodejs.org/en/download) (22.17.0 no momento da redação deste artigo)
+* npm (10.9.2 no momento da redação deste artigo)
+* [git](https://git-scm.com/) (2.50.0 no momento da redação deste artigo)
+> **Obs. :** Ao instalar o Node.js, o npm é instalado junto.
+> **Obs. 2:** Para verificar as versões do Node.js, npm e git instaladas em seu computador, execute o comando node `--version && npm --version && git --version` em seu terminal de linha de comando.
 
-Este é um curso da **Escola Talking About Testing**.
+
+## Testes
+
+Neste projeto, você pode executar os testes no modo desktop ou mobile
+
+
+### Desktop
+
+Execute `npm test` (ou `npm t` para a versão curta) para executar o teste no modo headless em uma viewport de desktop.
+
+Ou execute `npm run cy:open` para abrir a Cypress App em uma janela de exibição de desktop.
+
+
+### Mobile
+
+Execute `npm run test:mobile` para executar o teste no modo headless em uma viewport mobile.
+
+Ou execute `npm run cy:open:mobile` para abrir a Cypress App em uma janela de visualização mobile.
+
+---
+
+Projeto feito com ♥ por [André Cavati](https://github.com/AndreCavati), com instrução do professor [Walmir Filho](https://github.com/wlsf82)
